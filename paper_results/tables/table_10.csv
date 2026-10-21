@@ -1,0 +1,5 @@
+Method,Raw vectors (MiB),Peak RSS (MiB),P50 (ms),P99 (ms)
+Baseline,0.0,497.3,11.25,16.24
+Backend direct-k,0.0,481.3,11.19,16.27
+Full,0.0,1622.3,30.30,35.51
+RAM Exact,1562.5,3599.5,13.75,19.13

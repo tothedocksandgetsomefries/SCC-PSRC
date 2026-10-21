@@ -1,0 +1,51 @@
+# Python and build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Local editor settings
+.idea/
+.vscode/
+*.iml
+
+# Local credentials and execution inputs/outputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/artifacts/
+/local_runs/
+/data/
+*.pt
+*.pth
+*.pyd
+*.so
+*.faiss
+*.index
+
+# Manuscript, editorial and private authoring files
+/paper/
+/submission/
+/.local_audit/
+/historical_implementation/
+*.tex
+*.bib
+*.docx
+*.doc
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.abs

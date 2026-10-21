@@ -1,0 +1,44 @@
+[
+  {
+    "source_hash": "014cb182b104b0460709f55bbdbfcd4de2da4d196f4fc5c4118986cefcef644d",
+    "reference_file": "frozen_reference/T001/parent_bound.py",
+    "portable_file": "src/fvsr/core/parent_bound.py",
+    "portable_hash": "fec924498560102cd02e8c515302282bdaa4a56797ef3431b246e8aa67edd2f5",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  },
+  {
+    "source_hash": "c7a0f98590ea2c840b7c10536e9b2b76ab24a79b1ff4f4ad8d371500a028cc8b",
+    "reference_file": "frozen_reference/T001/r4_model_bound.py",
+    "portable_file": "src/fvsr/core/r4_model_bound.py",
+    "portable_hash": "b0db5be2e77b30e8de41479d15738388db6301c336d1946f66b76fa8d3cad87c",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  },
+  {
+    "source_hash": "a32336f3c40d6c3c3c420e89813ee68f9021f02bfd9ecf58a7f628cf9928fd3c",
+    "reference_file": "frozen_reference/T001/child_models_v2.py",
+    "portable_file": "src/fvsr/core/child_models_v2.py",
+    "portable_hash": "c546da0b6997d7a16d3871e4fec5d33fb0d4269a1ac40da77926fe7d476e10dd",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  },
+  {
+    "source_hash": "43fc94b2373b3d84a344f0c7b7be32c6962829f134424ef605262e79282b359c",
+    "reference_file": "frozen_reference/T001/reference_control.py",
+    "portable_file": "src/fvsr/core/reference_control.py",
+    "portable_hash": "832e71c72cde8ebb819400ba64801a0613cb9992e4b8161795c8c87a5cd257d2",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  },
+  {
+    "source_hash": "8a3d74b60533b064aa5cc2880c5c33c4f85322b7e27d15760be2f655b27fa313",
+    "reference_file": "frozen_reference/T001/training_primitives.py",
+    "portable_file": "src/fvsr/core/training_primitives.py",
+    "portable_hash": "629d944f22c778ea1ddbd88810c9665257d05ff5288a76bba7b591b96b10a697",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  },
+  {
+    "source_hash": "3b0361de5e8bb030d584825be3b0f04b71939454e1bfc6d1370eacc10cab972a",
+    "reference_file": "frozen_reference/T001/replay_bound.py",
+    "portable_file": "src/fvsr/core/replay_bound.py",
+    "portable_hash": "8ada0845dd4c55bbee7c6fd050c7c78d3bb5d5a88dff3374118bf1275561d80b",
+    "change": "Line ending normalization and package-relative imports only; AST otherwise identical"
+  }
+]

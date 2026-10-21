@@ -1,0 +1,15 @@
+Comparison,Variant,R10 (%),R100 (%),Delta versus Full (pp)
+A. SIFT1M/PQ32: head-structure comparison,Baseline,77.65,83.28,-1.178
+A. SIFT1M/PQ32: head-structure comparison,SCC only,77.84,83.65,-0.810
+A. SIFT1M/PQ32: head-structure comparison,Additive scalar head,78.18,84.46,+0.005
+A. SIFT1M/PQ32: head-structure comparison,Full,78.44,84.46,+0.000
+B. W3/PQ32: single-model feature controls,Baseline,34.62,53.97,-13.121
+B. W3/PQ32: single-model feature controls,w/o code embedding,37.20,58.98,-8.111
+B. W3/PQ32: single-model feature controls,w/o parent parts,49.84,66.31,-0.783
+B. W3/PQ32: single-model feature controls,w/o query RMS,52.11,67.12,+0.028
+B. W3/PQ32: single-model feature controls,Full,51.66,67.10,+0.000
+C. SIFT1M/PQ32: single-model feature controls,Baseline,77.65,83.28,-1.081
+C. SIFT1M/PQ32: single-model feature controls,w/o code embedding,77.77,83.66,-0.702
+C. SIFT1M/PQ32: single-model feature controls,w/o parent parts,78.51,84.33,-0.035
+C. SIFT1M/PQ32: single-model feature controls,w/o query RMS,78.24,84.37,+0.005
+C. SIFT1M/PQ32: single-model feature controls,Full,78.40,84.36,+0.000

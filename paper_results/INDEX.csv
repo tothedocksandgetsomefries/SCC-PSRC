@@ -1,0 +1,21 @@
+item,file,rows,observation_unit,scope
+APPLICATION_METHOD_COST.csv,paper_results/data/APPLICATION_METHOD_COST.csv,33,"method/filter cost aggregate, TIMED_128",saved numerical view
+APPLICATION_QUALITY_COHORTS.csv,paper_results/data/APPLICATION_QUALITY_COHORTS.csv,54,method/model/filter/cohort aggregate; ALL_512 and TIMED_128 remain distinct,saved numerical view
+MAIN_28.csv,paper_results/data/MAIN_28.csv,28,one saved development configuration,saved numerical view
+QUERY_GAIN_7032_CURRENT.csv,paper_results/data/QUERY_GAIN_7032_CURRENT.csv,7032,"configuration-specific query, averaged over predicates and runs",saved numerical view
+query_histogram_7032.csv,paper_results/data/query_histogram_7032.csv,200,one saved task/bin,saved numerical view
+RESCUE_HARM_CONSERVATION_CURRENT.csv,paper_results/data/RESCUE_HARM_CONSERVATION_CURRENT.csv,63,task/run/predicate observation,saved numerical view
+SELECTIVITY_1440_MODELS.csv,paper_results/data/SELECTIVITY_1440_MODELS.csv,1440,configuration/predicate/run observation,saved numerical view
+SELECTIVITY_480_CURRENT.csv,paper_results/data/SELECTIVITY_480_CURRENT.csv,480,configuration/predicate aggregate across three runs,saved numerical view
+Table 01,paper_results/tables/table_01.csv,5,displayed table row,presentation export; no metric recomputation
+Table 02,paper_results/tables/table_02.csv,3,displayed table row,presentation export; no metric recomputation
+Table 03,paper_results/tables/table_03.csv,28,displayed table row,presentation export; no metric recomputation
+Table 04,paper_results/tables/table_04.csv,4,displayed table row,presentation export; no metric recomputation
+Table 05,paper_results/tables/table_05.csv,10,displayed table row,presentation export; no metric recomputation
+Table 06,paper_results/tables/table_06.csv,5,displayed table row,presentation export; no metric recomputation
+Table 07,paper_results/tables/table_07.csv,14,displayed table row,presentation export; no metric recomputation
+Table 08,paper_results/tables/table_08.csv,6,displayed table row,presentation export; no metric recomputation
+Table 09,paper_results/tables/table_09.csv,4,displayed table row,presentation export; no metric recomputation
+Table 10,paper_results/tables/table_10.csv,4,displayed table row,presentation export; no metric recomputation
+Table 11,paper_results/tables/table_11.csv,28,displayed table row,presentation export; no metric recomputation
+Table 05 notes,paper_results/tables/table_05_notes.csv,10,displayed table-note observation,presentation export; no metric recomputation

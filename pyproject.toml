@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fvsr-frozen-reference"
+version = "0.1.2rc3"
+description = "Frozen code-only filtered vector search research reference"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy==1.26.4", "torch>=2.1,<2.9"]
+
+[project.optional-dependencies]
+ivf = ["faiss-cpu>=1.9,<1.10"]
+plots = ["matplotlib>=3.8,<4"]
+test = ["pytest>=8,<10"]
+training = ["scipy>=1.11,<1.16"]
+
+[project.urls]
+Repository = "https://github.com/tothedocksandgetsomefries/SCC-PSRC"
+
+[project.scripts]
+fvsr = "fvsr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

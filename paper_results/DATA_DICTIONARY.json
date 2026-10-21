@@ -1,0 +1,142 @@
+{
+  "files": {
+    "paper_results/data/APPLICATION_METHOD_COST.csv": {
+      "rows": 33,
+      "observation_unit": "method/filter cost aggregate, TIMED_128",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/APPLICATION_QUALITY_COHORTS.csv": {
+      "rows": 54,
+      "observation_unit": "method/model/filter/cohort aggregate; ALL_512 and TIMED_128 remain distinct",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/MAIN_28.csv": {
+      "rows": 28,
+      "observation_unit": "one saved development configuration",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/QUERY_GAIN_7032_CURRENT.csv": {
+      "rows": 7032,
+      "observation_unit": "configuration-specific query, averaged over predicates and runs",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/query_histogram_7032.csv": {
+      "rows": 200,
+      "observation_unit": "one saved task/bin",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/RESCUE_HARM_CONSERVATION_CURRENT.csv": {
+      "rows": 63,
+      "observation_unit": "task/run/predicate observation",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/SELECTIVITY_1440_MODELS.csv": {
+      "rows": 1440,
+      "observation_unit": "configuration/predicate/run observation",
+      "scope": "saved numerical view"
+    },
+    "paper_results/data/SELECTIVITY_480_CURRENT.csv": {
+      "rows": 480,
+      "observation_unit": "configuration/predicate aggregate across three runs",
+      "scope": "saved numerical view"
+    },
+    "paper_results/tables/table_01.csv": {
+      "rows": 5,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_02.csv": {
+      "rows": 3,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_03.csv": {
+      "rows": 28,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_04.csv": {
+      "rows": 4,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_05.csv": {
+      "rows": 10,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_06.csv": {
+      "rows": 5,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_07.csv": {
+      "rows": 14,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_08.csv": {
+      "rows": 6,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_09.csv": {
+      "rows": 4,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_10.csv": {
+      "rows": 4,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_11.csv": {
+      "rows": 28,
+      "observation_unit": "displayed table row",
+      "scope": "presentation export; no metric recomputation"
+    },
+    "paper_results/tables/table_05_notes.csv": {
+      "rows": 10,
+      "observation_unit": "displayed table-note observation",
+      "scope": "presentation export; no metric recomputation"
+    }
+  },
+  "run_labels": {
+    "run_id": "Stable anonymous model-run label or the recorded aggregate/not-applicable description.",
+    "source_run_id": "Original per-observation run identifier, retained as an anonymous label when the source also had a model-level run field.",
+    "run_counts": "Fields named runs/model_runs and counts with run in their names retain the original repetition counts.",
+    "run_sd": "Recorded standard deviation across model runs; not a confidence interval."
+  },
+  "measurement_conventions": {
+    "data/MAIN_28.csv": {
+      "recall_and_coverage": "fractions",
+      "delta_R100_pp": "percentage points",
+      "eta_pool_R100_pct": "percent",
+      "latency": "milliseconds",
+      "qps": "historical inverse mean-latency convention"
+    },
+    "data/QUERY_GAIN_7032_CURRENT.csv": {
+      "unit": "configuration-specific query averaged over predicates and model runs"
+    },
+    "data/SELECTIVITY_480_CURRENT.csv": {
+      "min_max": "pointwise range across three runs, not a confidence interval"
+    },
+    "application": {
+      "ALL_512": "full application quality cohort",
+      "TIMED_128": "128-query timing subset of the shared 512-query cohort",
+      "cost_percentiles": "recorded pooled request-time percentile definitions are retained per row"
+    },
+    "tables": {
+      "recall_coverage_and_recovery": "percent unless the column specifies another unit",
+      "delta": "percentage points",
+      "CI": "displayed interval with signs preserved",
+      "missing_display": "-- retains an unreported displayed value",
+      "blank_group_labels": "blank dataset cells inherit the preceding displayed dataset",
+      "table_03_effort_superscripts": "P: original effort target reached; F: target not reached; A: automatic effort. These mark original search-effort status, not current coverage.",
+      "dagger": "CPU2 observation; unmarked development cost rows use CPU6",
+      "table_05_notes": "Saved cohort sizes, candidate coverage, predicate count, and query-group decrease percentages from the fixed-code comparison notes. Decrease percentages compare Full against the stated decoder."
+    },
+    "missing": "Empty cells retain unrecorded metadata and are not zero.",
+    "data_roles": "Recorded evidence_role/data_role/role and protocol fields remain distinct."
+  }
+}

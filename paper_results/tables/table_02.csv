@@ -1,0 +1,4 @@
+Stage,Learning rate,Weight decay,Min/max epochs,Patience
+SCC,10^-3,0,2/30,5
+Initial PSRC,10^-3,10^-4,10/30,8
+Continuation,10^-4,10^-4,4/12,4

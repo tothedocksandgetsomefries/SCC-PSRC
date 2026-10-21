@@ -1,0 +1,5 @@
+* -text
+*.pdf binary
+*.npz binary
+*.zip binary
+# Preserve frozen byte identities, including their recorded line endings.

@@ -1,0 +1,48 @@
+{
+  "source_validation": {
+    "date": "2026-10-21",
+    "package_version": "0.1.2rc3",
+    "python": "3.12.14",
+    "OS": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "versions": {
+      "torch": "2.8.0+cpu",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "pytest": "9.1.1"
+    },
+    "mode": "Current source imported directly; no installed-wheel validation in this run",
+    "unit_parity_tests_passed": 23,
+    "cli_documentation_checks_passed": 14,
+    "GPU_tested": false,
+    "real_data_training_or_benchmarks_run": false
+  },
+  "historical_scientific_serving": {
+    "OS": "Linux",
+    "python": "3.10.13",
+    "torch": "2.1.2",
+    "numpy": "1.26.4",
+    "faiss": "1.9.0",
+    "container_image_sha256": "b097a8c26428511e6d77736744383ba993d2849f341702aa76e6b1694cb80e08",
+    "CPU": "Intel Xeon Gold 6226R",
+    "logical_CPUs": 32,
+    "affinity": [
+      6
+    ],
+    "SMT_monitored": [
+      22
+    ],
+    "threads": 1
+  },
+  "scope": "Software checks used the Windows CPU environment above. The historical benchmark environment is recorded separately and was not rerun during source cleanup.",
+  "installed_wheel_validation": {
+    "date": "2026-10-21",
+    "package_version": "0.1.2rc3",
+    "python": "3.12.14",
+    "OS": "Windows",
+    "unit_parity_tests_passed": 23,
+    "cli_checks_passed": 4,
+    "dependency_mode": "Separate virtual environment reusing the recorded scientific dependencies",
+    "real_data_training_or_benchmarks_run": false
+  }
+}

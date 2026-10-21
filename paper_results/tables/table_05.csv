@@ -1,0 +1,11 @@
+Domain,Method,Evaluated states,R10 (%),R100 (%)
+W3,Baseline,1,32.26,51.91
+W3,SCC--PSRC,3,44.88,62.81
+W3,Additive decoder (fixed codes),1,38.18,56.03
+W3,Neural reconstruction,3,36.06,53.78
+W3,ExactPool (offline),--,95.41,83.11
+SIFT1M,Baseline,1,77.65,83.28
+SIFT1M,SCC--PSRC,3,78.44,84.46
+SIFT1M,Additive decoder (fixed codes),1,77.71,83.66
+SIFT1M,Neural reconstruction,3,77.88,83.73
+SIFT1M,ExactPool (offline),--,99.88,98.92

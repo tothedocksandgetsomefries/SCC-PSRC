@@ -1,0 +1,52 @@
+{
+  "native_search": {
+    "ivf_pq_nonresidual_L2": "IMPLEMENTED_FOR_COMPATIBLE_INDEX_AND_GEOMETRY",
+    "ivf_pq_residual": "UNSUPPORTED_BY_PACKAGE_ADAPTER",
+    "RangePQ": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+    "Rii": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+    "ACORN_1_PQ_ADAPTED": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+    "RACORN_1_PQ_ADAPTED": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+    "HNSWPQ": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED"
+  },
+  "scoring": {
+    "global_PQ": "IMPLEMENTED",
+    "global_OPQ": "SCORING_INTERFACE",
+    "list_residual": "SCORING_INTERFACE"
+  },
+  "unsupported_behavior": "Explicit error; never silently use Native",
+  "capability_levels": {
+    "ivf_pq_nonresidual_L2": "native-available",
+    "global_OPQ_scoring": "scorer-interface-only",
+    "list_residual_scoring": "scorer-interface-only",
+    "ivf_pq_residual_search": "not-in-release",
+    "HNSWPQ": "external-build-required",
+    "Rii": "external-build-required",
+    "RangePQ": "external-build-required",
+    "ACORN_1_PQ_ADAPTED": "external-build-required",
+    "RACORN_1_PQ_ADAPTED": "external-build-required"
+  },
+  "build_details": "docs/IMPLEMENTATION_DETAILS.md#external-backend-versions",
+  "recorded_qualification": {
+    "scope": "Labels retained from historical qualification records; these checks were not rerun during the 2026-10-21 source cleanup.",
+    "native_search": {
+      "ivf_pq_nonresidual_L2": "REAL_W3_LINUX_QUALIFIED",
+      "ivf_pq_residual": "UNSUPPORTED_BY_PACKAGE_ADAPTER",
+      "RangePQ": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+      "Rii": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+      "ACORN_1_PQ_ADAPTED": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+      "RACORN_1_PQ_ADAPTED": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED",
+      "HNSWPQ": "EXTERNAL_ORIGINAL_RUNTIME_REQUIRED"
+    },
+    "scoring": {
+      "global_PQ": "NONZERO_GAMMA_FIXTURE_AND_REAL_W3",
+      "global_OPQ": "NONZERO_GAMMA_COORDINATE_FIXTURE",
+      "list_residual": "NONZERO_GAMMA_COORDINATE_FIXTURE"
+    }
+  },
+  "current_software_checks": {
+    "date": "2026-10-21",
+    "scope": "Synthetic unit/parity tests, artificial scoring demos, CLI argument checks and training dry runs",
+    "real_data_training_or_benchmarks_run": false,
+    "environment_record": "environments/QUALIFIED_RUNTIMES.json"
+  }
+}

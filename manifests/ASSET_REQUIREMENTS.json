@@ -1,0 +1,16 @@
+{
+  "native_ivf_evaluation": {
+    "geometry": "Compatible transform, codebook, stored codes and object IDs",
+    "index": "Non-residual squared-L2 Faiss IndexIVFPQ bound to the same geometry",
+    "models": "Method-specific checkpoints and verified identity bindings",
+    "queries": "NPZ with queries and qids",
+    "attributes": "Row-aligned update_date, category_labels and category_membership",
+    "requests": "JSON query IDs and supported filter requests"
+  },
+  "training": {
+    "inputs": "Bound database, codec and FIT/SELECT cache",
+    "selection_roles": "FIT0_SELECT_CAL1_SELECT_CHECK2",
+    "manifest_evidence_role": "FIT_SELECT_ONLY"
+  },
+  "distribution": "External model, codec and index downloads are not included in this source snapshot."
+}

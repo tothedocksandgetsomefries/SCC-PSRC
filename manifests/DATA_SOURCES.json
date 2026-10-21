@@ -1,0 +1,45 @@
+{
+  "dataset": "SPCL/arxiv-for-fanns-medium",
+  "revision": "b6ae30c917d155b4fa4721a3f1cedb3819fed14b",
+  "license": "SOURCE_CARD_DOES_NOT_DECLARE_A_UNIFORM_DATASET_LICENSE",
+  "GT_files_omitted": true,
+  "protected_roles": "Do not evaluate TEST or unselected FRESH; selection manifest permits512 historicalFRESH only",
+  "files": [
+    {
+      "path": "database_attributes.jsonl",
+      "sha256": "6d09f45c631821b0bc979152af373d6f02bf32d3a4c5b197fb947f5d8da8b4e9",
+      "bytes": 40945622,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/database_attributes.jsonl"
+    },
+    {
+      "path": "database_vectors.fvecs",
+      "sha256": "a50f568bfb420ef5e099f9a43bd1a2ec50c0e7683d639bec355d7b977e0f43fc",
+      "bytes": 1638800000,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/database_vectors.fvecs"
+    },
+    {
+      "path": "em_query_attributes.jsonl",
+      "sha256": "525dc562d25f554b594783cb9a49a7dc3f182c96630cedaa75348ba335104252",
+      "bytes": 130000,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/em_query_attributes.jsonl"
+    },
+    {
+      "path": "emis_query_attributes.jsonl",
+      "sha256": "e9b33543b7515353a8b209d81db0eded1301e13f1552caf5fc69105036734373",
+      "bytes": 192387,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/emis_query_attributes.jsonl"
+    },
+    {
+      "path": "query_vectors.fvecs",
+      "sha256": "5c782315435e96f9ef77ae30b61a026a61cd7d86dde9335acb1fceee14c42c1f",
+      "bytes": 163880000,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/query_vectors.fvecs"
+    },
+    {
+      "path": "r_query_attributes.jsonl",
+      "sha256": "919930242f13207688920bb62d894a5b1c63b9b67ddbdd3f7754b75b1b46f243",
+      "bytes": 430000,
+      "url": "https://huggingface.co/datasets/SPCL/arxiv-for-fanns-medium/resolve/b6ae30c917d155b4fa4721a3f1cedb3819fed14b/r_query_attributes.jsonl"
+    }
+  ]
+}

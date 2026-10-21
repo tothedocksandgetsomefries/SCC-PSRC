@@ -1,0 +1,11 @@
+Domain,Metric,Comparator,Value,Unit
+W3,Query groups,,512,groups
+SIFT1M,Development queries,,256,queries
+W3,O100,,83.11,percent
+SIFT1M,O100,,98.92,percent
+W3,Predicates per query,,6,predicates
+SIFT1M,Predicates per query,,6,predicates
+W3,Query groups with R100 decrease,Additive decoder,0.20,percent
+W3,Query groups with R100 decrease,Neural decoder,0.20,percent
+SIFT1M,Query groups with R100 decrease,Additive decoder,20.70,percent
+SIFT1M,Query groups with R100 decrease,Neural decoder,19.53,percent

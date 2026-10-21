@@ -1,0 +1,20 @@
+[
+  {
+    "source_sha256": "6cf107675605f8cce1c541235b84b8ca4f93c3937e4648e3fc106d8d2011d03f",
+    "release_file": "src/fvsr/core/residual_bound.py",
+    "release_sha256": "220af6d5a5bd0651b45ed0e058e3a95bc65c474ddce8e28fb5248d4dabc33031",
+    "nodes": [
+      "ResidualParent"
+    ],
+    "numerical_AST_unchanged": true
+  },
+  {
+    "source_sha256": "f63c8fd645777213e8c11ac70f01c5420a47681d1626a537af8c8b10923a0f86",
+    "release_file": "src/fvsr/core/decoder_reference.py",
+    "release_sha256": "3c8a9df5d3444b84335f13bf048a22a843b0151d252922168e0c59d29c4fc83c",
+    "nodes": [
+      "NNDecoder"
+    ],
+    "numerical_AST_unchanged": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "arms": [
+    "G_ADD_MATCHED",
+    "NO_CODE_EMBEDDING",
+    "NO_PARENT_PARTS",
+    "NO_QUERY_RMS"
+  ],
+  "implementation": "fvsr.controls.load_control",
+  "states": "Arm-matched original checkpoint required; feature omissions during fit and serve",
+  "qualification": "Feature definitions and checkpoint-loading checks; saved feature-comparison values are in paper_results/tables/table_07.csv.",
+  "prepared_full_historical_weight_bundle": false
+}

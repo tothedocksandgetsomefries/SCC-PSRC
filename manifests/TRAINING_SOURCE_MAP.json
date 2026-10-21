@@ -1,0 +1,20 @@
+[
+  {
+    "source_sha256": "f63c8fd645777213e8c11ac70f01c5420a47681d1626a537af8c8b10923a0f86",
+    "release_file": "src/fvsr/core/training_reference.py",
+    "release_sha256": "1e11b891737f36bf4acb162cd580831c7edaed9b314a8bf1726cf76f8692b064",
+    "scope": "Selected exact definitions/recipes; operational IO adapter only"
+  },
+  {
+    "source_sha256": "fdaf7d2c14cf04caf7b8cab926aa87fb87fe455e37f35686926abc62b0fd13d9",
+    "release_file": "src/fvsr/core/trainer_v2.py",
+    "release_sha256": "f5dc10cc762d10ee41e279c7f5c886ea8aac3fb89a62b1be69b9d5ffc05d4ead",
+    "scope": "Original numerical/control-flow AST; import paths and scoped operational IO only"
+  },
+  {
+    "source_sha256": "5483cc8fab8a46c40249115f101565e894070760f361538f118be90d526e91bb",
+    "release_file": "src/fvsr/core/selection.py",
+    "release_sha256": "f454a10e8abd815608e140d07fca4e344fd1a26812fbaf16b89190777bed8776",
+    "scope": "Original numerical/control-flow AST; import paths and scoped operational IO only"
+  }
+]

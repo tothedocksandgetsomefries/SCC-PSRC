@@ -1,0 +1,50 @@
+{
+  "state": "PRIVATE_REPOSITORY_SOURCE",
+  "date": "2026-10-21",
+  "package_version": "0.1.2rc3",
+  "published": false,
+  "scientific_core_changed": false,
+  "content": [
+    "method source",
+    "training recipes",
+    "software checks",
+    "dataset references",
+    "saved numerical views"
+  ],
+  "historical_experiment_seed_values_included": false,
+  "manuscript_and_editorial_files_included": false,
+  "original_datasets_and_trained_assets_included": false,
+  "license_pending": true,
+  "public_citation_pending": true,
+  "verification": {
+    "date": "2026-10-21",
+    "source_unit_parity_tests": {
+      "passed": 23,
+      "failed": 0
+    },
+    "cli_and_documentation_checks": {
+      "passed": 14,
+      "failed": 0
+    },
+    "protected_source_reference_and_test_files": {
+      "checked": 41,
+      "changed": 0
+    },
+    "mode": "Source checks and separately installed-wheel checks with synthetic inputs, dry runs and static validation",
+    "installed_wheel_checked_in_this_run": true,
+    "real_data_training_or_benchmark_execution": false,
+    "installed_wheel": {
+      "package_version": "0.1.2rc3",
+      "unit_parity_tests_passed": 23,
+      "cli_checks_passed": 4,
+      "dependency_mode": "Separate virtual environment reusing the recorded scientific dependencies"
+    }
+  },
+  "documentation_language": "en",
+  "repository": {
+    "url": "https://github.com/tothedocksandgetsomefries/SCC-PSRC",
+    "visibility": "private"
+  },
+  "documentation_files": 5,
+  "preparation_complete": true
+}
