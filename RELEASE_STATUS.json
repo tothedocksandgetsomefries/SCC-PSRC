@@ -1,8 +1,8 @@
 {
-  "state": "PRIVATE_REPOSITORY_SOURCE",
+  "state": "PUBLIC_REPOSITORY_SOURCE",
   "date": "2026-10-21",
   "package_version": "0.1.2rc3",
-  "published": false,
+  "published": true,
   "scientific_core_changed": false,
   "content": [
     "method source",
@@ -15,7 +15,7 @@
   "manuscript_and_editorial_files_included": false,
   "original_datasets_and_trained_assets_included": false,
   "license_pending": true,
-  "public_citation_pending": true,
+  "public_citation_pending": false,
   "verification": {
     "date": "2026-10-21",
     "source_unit_parity_tests": {
@@ -43,7 +43,7 @@
   "documentation_language": "en",
   "repository": {
     "url": "https://github.com/tothedocksandgetsomefries/SCC-PSRC",
-    "visibility": "private"
+    "visibility": "public"
   },
   "documentation_files": 5,
   "preparation_complete": true

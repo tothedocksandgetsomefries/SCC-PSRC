@@ -41,6 +41,6 @@ Open this directory in PyCharm or another Python editor. Package metadata and de
 
 ## Project status and licensing
 
-Repository: [SCC-PSRC](https://github.com/tothedocksandgetsomefries/SCC-PSRC), currently private. Python package: `fvsr-frozen-reference`, version `0.1.2rc3`. Associated manuscript: *Fixed-code candidate rescoring for filtered vector search*.
+Repository: [SCC-PSRC](https://github.com/tothedocksandgetsomefries/SCC-PSRC), public. Python package: `fvsr-frozen-reference`, version `0.1.2rc3`. Associated manuscript: *Fixed-code candidate rescoring for filtered vector search*.
 
 A software license for the project's original code has not yet been selected. Dependencies, external backends and datasets remain subject to their own terms. Their source and binaries are not vendored here; dataset links are in [DATASETS.md](docs/DATASETS.md). Dataset, model and index assets are not bundled.

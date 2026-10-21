@@ -248,13 +248,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3139,
-      "sha256": "68d172e6d2d67b946b74f0610a85339658acefce5ae5ef93471fe31af6d68dd3"
+      "bytes": 3128,
+      "sha256": "2209a134408c739e6655457b049b7e31f5d8375ecc539078c01ea8d880456533"
     },
     {
       "path": "RELEASE_STATUS.json",
-      "bytes": 1564,
-      "sha256": "93aff07ce89ed0a6f056bc2d6a822e57bc3aca8759095a3f3ddc056f45933d64"
+      "bytes": 1562,
+      "sha256": "ca1d9f5e3339f5517b89b4b8139b08585bf5740b70c93ceffd38ccf608459f0a"
     },
     {
       "path": "scripts/evaluate.py",
